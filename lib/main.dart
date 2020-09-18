@@ -22,6 +22,9 @@ class Profile extends StatelessWidget {
         body: SafeArea(
           child: Column(
             children: [
+	      SizedBox(
+	      	height: 50.0,
+	      ),
               CircleAvatar(
                   radius: 50.0,
                   backgroundImage: AssetImage('images/pic.jpg'),
